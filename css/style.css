@@ -1,0 +1,1253 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+
+
+/*SECTION 1*/
+.sec1 {
+    height: 80px;
+    background: #EFEFEF;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+
+.container1 {
+    height: 100%;
+    width: 100%;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logo-frame1 {
+    display: flex;
+    align-items: center;
+}
+
+.logo-frame1 a {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: rgb(0, 122, 128);
+    font-weight: 600;
+}
+
+.image1 {
+    height: 60px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container1 .setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.container1 .setting a {
+    width: 25%;
+}
+
+.setting a:hover {
+    background: white;
+    height: 100%;
+    width: 25%;
+}
+
+.setting a {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    color: black;
+}
+
+.web {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web div a {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    color: rgb(0, 0, 0) !important;
+    background: white;
+    margin: 0px 0.3rem;
+    border-radius: 10px;
+}
+
+/*SECTION 1*/
+
+
+
+
+
+/*SECTION 2*/
+.sec2 {
+    background-image: url("../image/Anh_Lop.jpg");
+    background-size: 100%;
+    height: 1000px;
+    width: auto;
+    background-repeat: no-repeat;
+    padding: 200px 150px;
+    margin-bottom: 200px;
+}
+
+.container2 {
+    height: 35%;
+    width: auto;
+}
+
+
+.big-title1 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.small-title1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.description1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px
+}
+
+.button1 {
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but1, .but2 {
+    height: 80px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+.but1 {
+    background: #F7D9C4;
+}
+
+.but2 {
+    border: 1px solid gray;
+    background: transparent;
+}
+
+.button1 .but1 {
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+}
+
+.button1 .but1:hover {
+    color: black;
+    background: white;
+}
+
+.button1 .but2 {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.button1 .but2:hover {
+    border: 1px solid gray;
+    color: white;
+    background: #F7D9C4;
+}
+/*Section 2*/
+
+
+
+
+
+
+/* ADD SECTION */
+.sec-add {
+    margin-bottom: 200px;
+    background: #EFEFEF;
+    height: auto;
+    padding: 30px 0;
+}
+
+.inner-head-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.inner-head-title span {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.inner-head {
+    margin-bottom: 40px;
+}
+
+.inner-head p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Tri-An {
+    height: auto;
+    width: 100%;
+}
+
+.desc-title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.desc-body1 {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.desc-body2 {
+    font-size: 15px;
+}
+/* ADD SECTION */
+
+
+
+
+
+
+/*Section 3*/
+.members {
+    height: auto;
+    background: #F2F2FE;
+    display: flex;
+    justify-content: center;
+}
+
+.enu {
+    width: 60%;
+    border-radius: 16px;
+    text-align: center;
+}
+
+.enu h2 {
+    font-size: 40px;
+    color: #2C1D7E;
+}
+
+.sec3 {
+    margin-bottom: 150px;
+    background: #EFEFEF;
+    height: auto;
+    width: 100%;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+
+.container3 div {
+    height: auto;
+    width: calc(20% - 32px);
+    border-radius: 20px;
+    border: 3px solid #D4907D;
+    background: #E5D4B8;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.container3 div img {
+    height: auto;
+    width: 100%;
+    border: 1px solid #D4907D;
+    border-radius: 12px;
+}
+
+.container3 div img:hover {
+    transform: scale(1.05);
+}
+
+.container3 div span {
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 2px solid black;
+    background: #D0DF9E;
+    color: #ED7653;
+    position: relative;
+    top: -15px;
+}
+
+.container3 div p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #27221A;
+}
+
+
+
+
+
+
+/* Section 4 */
+.sec4 {
+    height: 560px;
+    background: #EFEFEF;
+    padding: 100px 150px;
+    margin-bottom: 150px;
+}
+
+.container4 {
+    background: white;
+    height: 100%;
+    border-radius: 24px;
+    padding: 30px 80px;
+}
+
+.container4 .inner-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container4 .inner-main .part1 {
+    width: calc(100% - 58.333%);
+}
+
+.container4 .inner-main .part1 span {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.container4 .inner-main .part2 {
+    width: 58.333%;
+    display: flex;
+    justify-content: end;
+}
+
+.container4 .inner-main .part2 .collapseGroup {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container4 .inner-main .part2 .collapseGroup p {
+    border: 1px solid black;
+    border-radius: 12px;
+    background: #DE5614;
+}
+
+.container4 .inner-main .part2 .collapseGroup p button {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    color: #EFEFEF;
+    font-size: 25px;
+}
+
+.container4 .inner-main .part2 .collapseGroup p button:hover {
+    transform: scale(1.1);
+    color: black;
+}
+
+.container4 .inner-main .part2 .collapseGroup p:hover {
+    transform: scale(1.03);
+}
+
+.container4 .inner-main .part2 .collapseGroup div {
+    background: #EFEFEF;
+    border-radius: 14px;
+}
+
+.container4 .inner-main .part2 .collapseGroup div div {
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Section 4 */
+
+
+
+
+
+/* Screen */
+@media screen and (max-width: 1024px) {
+    .sec2 {
+        padding: 180px 100px;
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        height: 25%;
+    }
+
+    .big-title1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+
+    .small-title1 {
+        font-size: 17px;
+        font-weight: 450;
+        margin-bottom: 5px;
+    }
+
+    .description1 {
+        font-size: 17px;
+        font-weight: 450;
+    }
+
+    .button1 {
+        width: 40%;
+    }
+
+    .button1 a {
+        width: 40%;
+        border-radius: 12px;
+    }
+
+    .button1 .but1 {
+        height: 70px;
+        font-size: 17px;
+    }
+
+    .button1 .but2 {
+        height: 70px;
+        font-size: 17px;
+    }
+
+
+
+
+    .sec-add {
+        height: auto;
+    }
+
+    .col-xl-6 .desc {
+        margin-bottom: 40px;
+    }
+
+
+
+
+    .enu {
+        width: 65%;
+        border-radius: 12px;
+    }
+
+    .enu h2 {
+        font-size: 35px;
+    }
+
+    .sec3 {
+        height: auto;
+    }
+
+    .container3 div {
+        width: calc(20% - 16px);
+    }
+
+    .container3 div span {
+        font-size: 13px;
+    }
+
+    .container3 div p {
+        font-size: 12px;
+    }
+
+
+
+
+    .container4 .inner-main .part1 span {
+        font-size: 35px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup p button{
+        font-size: 20px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup .collapse div {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 948px) {
+    .container1 .web{
+        display: none;
+    }
+
+    .container1 .setting {
+        width: 55%;
+        margin-right: 80px;
+    }
+
+    .sec2 {
+        padding: 150px 100px;
+        height: 900px;
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        height: 23%;
+    }
+
+    .big-title1 {
+        font-size: 33px;
+        margin-bottom: 10px;
+    }
+
+    .small-title1 {
+        font-size: 15px;
+        font-weight: 450;
+        margin-bottom: 5px;
+    }
+
+    .description1 {
+        font-size: 15px;
+        font-weight: 450;
+    }
+
+    .button1 {
+        width: 40%;
+    }
+
+    .button1 a {
+        width: 40%;
+        border-radius: 12px;
+    }
+
+    .button1 .but1 {
+        height: 65px;
+        font-size: 17px;
+    }
+
+    .button1 .but2 {
+        height:65px;
+        font-size: 17px;
+    }
+
+
+
+
+    .sec-add {
+        height: auto;
+    }
+
+    .col-xl-6 .desc {
+        margin-bottom: 40px;
+    }
+
+
+
+
+    .enu {
+        width: 63%;
+        border-radius: 10px;
+    }
+
+    .enu h2 {
+        font-size: 30px;
+    }
+
+    .sec3 {
+        height: auto;
+    }
+
+    .container3 div {
+        width: calc(25% - 16px);
+    }
+
+    .container3 div span {
+        font-size: 15px;
+    }
+
+    .container3 div p {
+        font-size: 15px;
+    }
+
+
+
+
+    .container4 .inner-main .part1 span {
+        font-size: 35px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup p button{
+        font-size: 20px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup .collapse div {
+        font-size: 13px;
+    }
+}
+
+
+
+@media screen and (max-width: 848px) {
+    .container1 .web {
+        display: none;
+    }
+
+    .container1 .setting {
+        width: 55%;
+        margin-right: 60px;
+    }
+
+    .sec2 {
+        padding: 130px 100px;
+        height: 850px;
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        height: 20%;
+    }
+
+    .big-title1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .small-title1 {
+        font-size: 12px;
+        font-weight: 450;
+        margin-bottom: 5px;
+    }
+
+    .description1 {
+        font-size: 12px;
+        font-weight: 450;
+    }
+
+    .button1 {
+        width: 40%;
+    }
+
+    .button1 a {
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .button1 .but1 {
+        font-size: 13px;
+        height: 50px;
+    }
+
+    .button1 .but2 {
+        font-size: 13px;
+        height: 50px;
+    }
+
+
+
+
+    .sec-add {
+        height: auto;
+        padding: 25px 30px;
+    }
+
+    .col-xl-6 .desc {
+        margin-bottom: 40px;
+    }
+
+
+
+
+    .enu {
+        width: 60%;
+        border-radius: 10px;
+    }
+
+    .enu h2 {
+        font-size: 25px;
+    }
+
+    .sec3 {
+        height: auto;
+    }
+
+    .container3 div {
+        width: calc(33.333% - 16px);
+    }
+
+    .container3 div span {
+        font-size: 18px;
+    }
+
+    .container3 div p {
+        font-size: 16px;
+    }
+
+
+
+
+    .sec4 {
+        padding: 100px 80px;
+    }
+
+    .container4 .inner-main .part1 span {
+        font-size: 30px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup p button{
+        font-size: 15px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup .collapse div {
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container1 .web{
+        display: none;
+    }
+
+    .container1 .setting {
+        width: 60%;
+        margin-right: 20px;
+    }
+
+    .container1 .setting a {
+        font-size: 16px;
+    }
+
+    .sec2 {
+        padding: 130px 70px;
+        height: 750px;
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        height: 22%;
+    }
+
+    .big-title1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .small-title1 {
+        font-size: 12px;
+        font-weight: 450;
+        margin-bottom: 5px;
+    }
+
+    .description1 {
+        font-size: 12px;
+        font-weight: 450;
+    }
+
+    .button1 {
+        width: 40%;
+    }
+
+    .button1 a {
+        width: 40%;
+        border-radius: 12px;
+    }
+
+    .button1 .but1 {
+        font-size: 14px;
+    }
+
+    .button1 .but2 {
+        font-size: 14px;
+    }
+
+
+
+
+    .sec-add {
+        height: auto;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head-title {
+        margin-bottom: 15px;
+    }
+
+    .col-xl-6 .desc {
+        margin-bottom: 40px;
+    }
+
+
+
+
+    .enu {
+        width: 70%;
+        border-radius: 10px;
+    }
+
+    .enu h2 {
+        font-size: 25px;
+    }
+
+    .sec3 {
+        height: auto;
+    }
+
+    .container3 div span {
+        font-size: 15px;
+    }
+
+
+
+
+    .sec4 {
+        padding: 100px 80px;
+    }
+
+    .container4 {
+        padding: 30px 40px;
+    }
+
+    .container4 .inner-main .part1 span {
+        font-size: 30px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup p button{
+        font-size: 13px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup .collapse div {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 580px) {
+    .container1 .web{
+        display: none;
+    }
+
+    .container1 .setting {
+        display: none;
+    }
+
+    .container1 .setting a {
+        font-size: 16px;
+    }
+
+    .sec2 {
+        padding: 90px 50px;
+        height: 600px;
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        height: 22%;
+    }
+
+    .big-title1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .small-title1 {
+        font-size: 10px;
+        font-weight: 450;
+        margin-bottom: 5px;
+    }
+
+    .description1 {
+        font-size: 10px;
+        font-weight: 450;
+    }
+
+    .button1 {
+        width: 40%;
+    }
+
+    .button1 a {
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .button1 .but1 {
+        height: 50px;
+        font-size: 12px;
+    }
+
+    .button1 .but2 {
+        height: 50px;
+        font-size: 12px;
+    }
+
+
+
+
+    .sec-add {
+        height: auto;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head-title {
+        margin-bottom: 15px;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head-title span {
+        font-size: 30px;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head p {
+        font-size: 15px;
+    }
+
+    .col-xl-6 .desc {
+        margin-bottom: 40px;
+    }
+
+    .col-xl-6 .desc .desc-title {
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+
+    .col-xl-6 .desc .desc-body1 {
+        font-size: 13px;
+    }
+
+    .col-xl-6 .desc .desc-body2 {
+        font-size: 13px;
+    }
+
+
+
+
+    .enu {
+        width: 70%;
+        border-radius: 10px;
+    }
+
+    .enu h2 {
+        font-size: 20px;
+    }
+
+    .sec3 {
+        height: auto;
+    }
+
+    .container3 div {
+        width: calc(50% - 20px);
+    }
+
+    .container3 div span {
+        font-size: 15px;
+    }
+
+
+
+
+    .sec4 {
+        padding: 100px 50px;
+    }
+
+    .container4 {
+        padding: 20px 30px;
+    }
+
+    .container4 .inner-main .part1 span {
+        font-size: 25px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup p button{
+        font-size: 13px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup .collapse div {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .container1 .web{
+        display: none;
+    }
+
+    .container1 .setting {
+        display: none;
+    }
+
+    .container1 .setting a {
+        font-size: 16px;
+    }
+
+    .sec2 {
+        padding: 40px 30px;
+        height: 500px;
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        height: 17%;
+    }
+
+    .big-title1 {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+
+    .small-title1 {
+        font-size: 8px;
+        font-weight: 450;
+        margin-bottom: 3px;
+    }
+
+    .description1 {
+        font-size: 8px;
+        font-weight: 450;
+    }
+
+    .button1 {
+        width: 40%;
+    }
+
+    .button1 a {
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .button1 .but1 {
+        height: 40px;
+        font-size: 10px;
+    }
+
+    .button1 .but2 {
+        height: 40px;
+        font-size: 10px;
+    }
+
+
+
+
+    .sec-add {
+        height: auto;
+        margin-bottom: 150px;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head-title {
+        margin-bottom: 10px;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head-title span {
+        font-size: 25px;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head {
+        margin-bottom: 15px;
+    }
+
+    .container .row .col-xl-12 .inner-main .inner-head p {
+        font-size: 13px;
+    }
+
+    .col-xl-6 .desc {
+        margin-bottom: 30px;
+    }
+
+    .col-xl-6 .desc .desc-title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .col-xl-6 .desc .desc-body1 {
+        font-size: 12px;
+    }
+
+    .col-xl-6 .desc .desc-body2 {
+        font-size: 12px;
+    }
+
+
+
+
+
+    .enu {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    .enu h2 {
+        font-size: 17px;
+    }
+
+    .container3 div span {
+        font-size: 13px;
+    }
+
+
+
+
+
+    .sec4 {
+        height: 500px;
+        padding: 80px 20px;
+    }
+
+    .container4 {
+        padding: 20px 20px;
+    }
+
+    .container4 .inner-main .part1 span {
+        font-size: 25px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup p button{
+        font-size: 13px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup .collapse div {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+    .container1 .web{
+        display: none;
+    }
+
+    .container1 .setting {
+        display: none;
+    }
+
+    .container1 .setting a {
+        font-size: 13px;
+    }
+
+    .sec2 {
+        padding: 15px 20px;
+        height: 400px;
+        margin-bottom: 0;
+    }
+
+    .container2 {
+        height: 18%;
+    }
+
+    .big-title1 {
+        font-size: 18px;
+        margin-bottom: 3px;
+    }
+
+    .small-title1 {
+        font-size: 8px;
+        font-weight: 450;
+        margin-bottom: 3px;
+    }
+
+    .description1 {
+        font-size: 8px;
+        font-weight: 450;
+    }
+
+    .button1 {
+        width: 50%;
+    }
+
+    .button1 a {
+        width: 40%;
+        border-radius: 10px;
+    }
+
+    .button1 .but1 {
+        height: 35px;
+        font-size: 9px;
+    }
+
+    .button1 .but2 {
+        height: 35px;
+        font-size: 9px;
+    }
+
+
+
+
+
+    .enu {
+        width: 90%;
+        border-radius: 10px;
+    }
+
+    .enu h2 {
+        font-size: 14px;
+    }
+
+    .container3 div {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+    .sec4 {
+        height: 400px;
+        padding: 30px 20px;
+    }
+
+    .container4 {
+        padding: 20px 20px;
+    }
+
+    .container4 .inner-main .part1 span {
+        font-size: 20px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup p button{
+        font-size: 13px;
+    }
+
+    .container4 .inner-main .part2 .collapseGroup .collapse div {
+        font-size: 8px;
+        border-radius: 10px;
+    }
+}
+
+/* Screen */
